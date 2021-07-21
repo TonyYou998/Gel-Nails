@@ -1,6 +1,11 @@
 .navbar{
     z-index: 1000;
     position: fixed;
+    
+    .navbar-collapse{
+        flex-grow: 0 !important;
+    
+    }
     .Logo{
         font-weight: 600;
         color: #000000;
@@ -10,7 +15,7 @@
     .nav-item{
         &:hover{
             // border-bottom: 2px solid black;
-            color: grey;
+            color: white;
         }
         transition: .2s;
         font-size: 20px;
@@ -18,6 +23,7 @@
         font-style: normal  ;
         color: #000;
         cursor: pointer;
+        margin-bottom: 4px !important;
     }
     .vertical{
         // &::after{
@@ -34,4 +40,8 @@
         font-size: 40px !important;
     }
 
+}
+.navbar__change{
+    transition: .5s;
+    background-color: white ;
 }

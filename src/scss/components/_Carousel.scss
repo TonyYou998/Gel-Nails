@@ -1,18 +1,26 @@
 .carousel__container{
    .video{
-       position:fixed ;
+       position:relative ;
        min-width: 100%;
        min-height: 100%;
     //    min-height: 400px !important;
    }
    .banner__wrapper{
        position: absolute;
-       bottom: 45%;
+       top: 40%;
     //    left: 100px;
         transform: translateX(20%);
         
     
        max-width: 560px;
+       .btn__book{
+           &:hover{
+               background-color: white;
+               color: black;
+                border: solid 1px black;
+           }
+           transition: .6s;
+       }
    }
 
 

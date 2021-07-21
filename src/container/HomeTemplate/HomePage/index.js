@@ -1,11 +1,15 @@
 
 import React from 'react'
-import NavBar from '../../../components/NavBar'
+import About from './Components/About'
+
 import Carousel from './Components/Carousel'
 
 
 const renderCarouser=()=>{
     return <Carousel/>
+}
+const renderAbout=()=>{
+    return <About/>
 }
 export default function HomePage() {
 
@@ -13,6 +17,7 @@ export default function HomePage() {
     return (
         <div>
             {renderCarouser()}
+            {renderAbout()}
         </div>
     )
 }
