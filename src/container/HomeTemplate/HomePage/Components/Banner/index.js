@@ -5,13 +5,16 @@ import Slogan from '../Slogan'
 export default function Banner() {
     return (
         <div className="banner__wrapper ">
-            <div className="banner__title">
+            <div className="banner__title text-center">
                 <Slogan/>
                
             </div>
-                 <BookButton className="mt-4 btn__book ">
-                    Book a Pointment
+            <div>
+                <BookButton className="mt-5 container btn__book ">
+                        Book a Pointment
                 </BookButton>
+            </div>
+            
         </div>
     )
 }

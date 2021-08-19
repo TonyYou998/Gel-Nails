@@ -2,11 +2,19 @@
     .about__img{
         height: 400px;
          
-        
+        object-fit: cover;
         background-repeat: no-repeat;
         background-position:left;
         background-size: inherit;
 
         
+    }
+}
+.read__more{
+    font-weight: 500;
+    &:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
     }
 }
