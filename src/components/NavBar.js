@@ -11,7 +11,7 @@ $(document).ready(()=>{
         $(".Logo").removeClass("text-center");
     }
     else{
-        // $(".NavbarShow").removeClass("show");
+       
         $(".navbar").addClass("w-100");
         $(".Logo").addClass("text-center");
     }

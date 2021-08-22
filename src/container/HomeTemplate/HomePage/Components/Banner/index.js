@@ -2,6 +2,7 @@ import React from 'react'
 import BookButton from '../../../../../Styled-Components/BookButton'
 import Slogan from '../Slogan'
 
+
 export default function Banner() {
     return (
         <div className="banner__wrapper ">

@@ -3,6 +3,7 @@ import React from 'react'
 import About from './Components/About'
 
 import Carousel from './Components/Carousel'
+import Gallery from './Components/Gallary'
 import Services from './Components/Services'
 
 
@@ -15,6 +16,9 @@ const renderAbout=()=>{
 const renderServices=()=>{
     return <Services/>
 }
+const renderGallery=()=>{
+    return <Gallery/>
+}
 export default function HomePage() {
 
     
@@ -23,6 +27,7 @@ export default function HomePage() {
             {renderCarouser()}
             {renderAbout()}
             {renderServices()}
+            {renderGallery()}
         </div>
     )
 }

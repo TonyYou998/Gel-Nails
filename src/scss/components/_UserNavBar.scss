@@ -1,27 +1,27 @@
 .navbar{
     z-index: 1000;
     position: fixed;
-    
+    background-color: rgba(0, 0, 0, 0.021);
     .navbar-collapse{
         flex-grow: 0 !important;
     
     }
     .Logo{
         font-weight: 600;
-        color: #000000;
+        color: #ffff;
         font-style: normal;
 
     }
     .nav-item{
         &:hover{
             // border-bottom: 2px solid black;
-            color: white;
+            color: black;
         }
         transition: .2s;
         font-size: 20px;
         font-weight: 400;
         font-style: normal  ;
-        color: #000;
+        color: #fff;
         cursor: pointer;
         margin-bottom: 4px !important;
     }
@@ -43,5 +43,5 @@
 }
 .navbar__change{
     transition: .5s;
-    background-color: white ;
+    background-color: black ;
 }
