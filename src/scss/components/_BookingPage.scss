@@ -1,0 +1,20 @@
+.carousel__wrapper{
+    height: 450px;
+    background-size: cover;
+    // background-repeat: no-repeat;
+    .booking__title{
+        justify-content: center;
+        h1{
+          
+            transform: translateY(220px);
+            color: white;
+        }
+    }
+}
+.booking__form{
+    background-color: #f8f7f2;
+    .booking__form__wrapper{
+        width: 90%;
+        margin: 0 auto;
+    }
+}

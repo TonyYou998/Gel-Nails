@@ -12,12 +12,12 @@ function LayoutHome(props) {
   }
 
 
-export default function HomeTemplate({ Component}) {
-    // const {Component}=props;
+export default function HomeTemplate({ Component,...props}) {
+    
   
     return (
         <Route
-            // {...props}
+            {...props}
             render={(propsComponent) => (
                 <LayoutHome>
                     < Component {...propsComponent} />

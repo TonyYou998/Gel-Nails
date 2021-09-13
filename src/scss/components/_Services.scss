@@ -17,8 +17,7 @@
     }
     .service__name{
         position: absolute;
-        // top: 0;
-        // left: 0;
+        
         bottom: 0;
         width:12rem;
         height: 12rem;
@@ -51,5 +50,42 @@
     &:hover .service__name{
         opacity: 1;
     }
+    
+}
+.service__mobile{
+    .carousel-item{
+        position: relative;
+        height: 200px;
+        .service__title{
+            position: absolute;
+            font-weight: 500;
+            font-style: italic;
+            top: 0;
+            background-color: black;
+          
+           h4{
+                font-weight: 300;
+                font-style: italic;
+                margin: 0;
+                padding: 8px 14px;
+                
+           }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+@media screen and (max-width:993px){
+    .service__container{
+        display: none;
+    }
+}
+@media screen and(min-width:993px) {
+   .service__mobile{
+       display: none;
+   }
     
 }

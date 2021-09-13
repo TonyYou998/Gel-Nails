@@ -1,0 +1,39 @@
+.profile__card{
+    
+    padding-left: 0;
+    overflow: hidden;
+    position: relative;
+       img{
+            width: 230px;
+            height: 380px;
+            object-fit: cover;
+            
+       }
+       .staff__info{
+           
+        background-color: white;
+        transform: translateX(60%);
+        
+           position: absolute;
+           height: 100%;
+             width: 100%;
+           .position{
+               font-size: 18px;
+               color: rgb(12,43,255);
+               font-weight: 400;
+           }
+           .quote{
+               font-size: 20px;
+           }
+           transition: all 1s;
+           
+       }
+      
+}
+.profile__card :hover .staff__info{
+    transform:  translateX(0);
+}
+.team{
+    background-color: rgb(251,219,219);
+}
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import BookButton from '../../../../../Styled-Components/BookButton'
 import Slogan from '../Slogan'
-
+import {Link} from "react-router-dom"
 
 export default function Banner() {
     return (
@@ -11,9 +11,15 @@ export default function Banner() {
                
             </div>
             <div>
-                <BookButton className="mt-5 container btn__book ">
+                <Link to="/booking" style={{textDecoration:"none"}}>
+                    <BookButton className="mt-5 container btn__book ">
                         Book a Pointment
-                </BookButton>
+                    </BookButton>      
+                </Link>
+                
+
+              
+                
             </div>
             
         </div>

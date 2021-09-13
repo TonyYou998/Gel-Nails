@@ -41,7 +41,7 @@ export default function NavBar() {
                
               <div className="navbar-collapse ">
                   <div className="px-5 brand">
-                      <h2 className="Logo" style={{fontSize:"36px"}} >GEL NAILS</h2>
+                      <h2 className="Logo text-center" style={{fontSize:"36px"}} >GEL NAILS</h2>
                   </div>
                   <div className=" w-50 py-1 collapse NavbarShow  ">
                       <ul className="navbar-nav   d-flex justify-content-center " >
